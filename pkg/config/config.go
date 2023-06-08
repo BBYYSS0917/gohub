@@ -1,3 +1,4 @@
+// Package config 负责配置信息
 package config
 
 import (
@@ -8,6 +9,7 @@ import (
 	viperlib "github.com/spf13/viper" // 自定义包名，避免与内置 viper 实例冲突
 )
 
+// viper 库实例
 var viper *viperlib.Viper
 
 // ConfigFunc 动态加载配置信息
